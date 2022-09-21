@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "One Click App Repository for CapRover",
   "scripts": {
-    "build": "rimraf ./dist && node ./scripts/build_one_click_apps.js && node ./scripts/build_one_click-apps_from_v4.js",
+    "build": "rimraf ./dist && node ./scripts/build_one_click_apps.js && node ./scripts/build_one_click_apps_from_v4.js",
 		"validate": "node ./scripts/validate_apps.js"
   },
   "repository": {
