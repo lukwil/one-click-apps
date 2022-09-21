@@ -32,7 +32,7 @@ services:
             DB_PASSWORD: $$cap_kutt_postgres_password
             REDIS_HOST: srv-captain--$$cap_appname-redis
             SITE_NAME: $$cap_appname URL Shortener
-            DEFAULT_DOMAIN: $$cap_appname-kutt.$$cap_root_domain
+            DEFAULT_DOMAIN: $$cap_appname.$$cap_root_domain
             JWT_SECRET: $$cap_gen_random_hex(64)
             MAIL_HOST: $$cap_kutt_mail_host
             MAIL_PORT: $$cap_kutt_mail_port
